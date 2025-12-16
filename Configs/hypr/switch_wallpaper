@@ -2,7 +2,9 @@
 
 WALLPAPER_DIRECTORY=~/.config/hypr/wallpapers
 
-WALLPAPER=$(find "$WALLPAPER_DIRECTORY" -type f | shuf -n 1)
+LOADED=$(hyprctl hyprpaper listloaded)
+
+WALLPAPER=$(find "$WALLPAPER_DIRECTORY" ! -wholename "$LOADED" -type f | shuf -n 1)
 
 hyprctl hyprpaper preload "$WALLPAPER"
 hyprctl hyprpaper wallpaper ",$WALLPAPER"
