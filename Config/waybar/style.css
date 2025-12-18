@@ -1,6 +1,6 @@
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
-	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, 'Font Awesome 7 Free', 'Font Awesome 7 Free Solid';
 	font-size: 13px;
 	font-weight: bold;
 }
@@ -135,8 +135,7 @@ window#waybar.empty #window {
 
 #battery.charging,
 #battery.plugged {
-	color: #ffffff;
-	background-color: #26a65b;
+	
 }
 
 @keyframes blink {
@@ -148,8 +147,7 @@ window#waybar.empty #window {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-	background-color: #f53c3c;
-	color: #ffffff;
+	color: #f53c3c;
 	animation-name: blink;
 	animation-duration: 0.5s;
 	animation-timing-function: steps(12);
@@ -181,12 +179,11 @@ label:focus {
 }
 
 #cpu {
-	/* background-color: #2ecc71;
-	color: #000000; */
+	
 }
 
 #memory {
-	/* background-color: #9b59b6; */
+	
 }
 
 #disk {
@@ -206,13 +203,11 @@ label:focus {
 }
 
 #pulseaudio {
-	/* background-color: #f1c40f; */
 	color: #ffffff;
 }
 
 #pulseaudio.muted {
-	background-color: #90b1b1;
-	color: #2a5c45;
+	
 }
 
 #wireplumber {

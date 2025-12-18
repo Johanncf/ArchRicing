@@ -150,8 +150,8 @@
 		},
 		"format": "{icon} {capacity}%",
 		"format-full": "{icon} {capacity}%",
-		"format-charging": "{capacity}% ",
-		"format-plugged": "{capacity}% ",
+		"format-charging": " {capacity}%",
+		"format-plugged": " {capacity}%",
 		"format-alt": "{time} {icon}",
 		// "format-good": "", // An empty format will hide the module
 		// "format-full": "",
@@ -183,12 +183,11 @@
 	},
 	"pulseaudio": {
 		// "scroll-step": 1, // %, can be a float
-		"format": "{icon} {volume}%",
-		// "format": "{volume}% {icon} {format_source}",
-		"format-bluetooth": "{volume}% {icon} {format_source}",
-		"format-bluetooth-muted": " {icon} {format_source}",
+		"format": "{icon} {format_source}",
+		"format-bluetooth": "{icon}  {format_source}",
+		"format-bluetooth-muted": " {icon}  {format_source}",
 		"format-muted": " {format_source}",
-		"format-source": "{volume}% ",
+		"format-source": "", // {volume}%
 		"format-source-muted": "",
 		"format-icons": {
 			"headphone": "",
