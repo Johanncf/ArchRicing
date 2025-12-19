@@ -13,6 +13,7 @@ fi
 echo "ArchRicing: Synchronizing config files..." 
 cp -r "$script_dir/hypr"        ~/.config
 cp -r "$script_dir/waybar"      ~/.config
+cp -r "$script_dir/kitty"	~/.config
 cp    "$script_dir/zsh/.zshrc"  ~/.zshrc
 echo "ArchRicing: Ok"
 
