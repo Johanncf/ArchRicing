@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo pacman -S ttf-input-nerd
+sudo pacman -S ttf-jetbrains-mono-nerd
 sudo pacman -S hyprland
 sudo pacman -S kitty
 sudo pacman -S hyprpaper
