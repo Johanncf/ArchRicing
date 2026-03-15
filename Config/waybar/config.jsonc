@@ -53,7 +53,8 @@
 	"hyprland/window": {
 		"format": "{title}",  
     "rewrite": {
-      "(.*) - (.*)": "$2"
+      "(.*) - (.*)": "$2",
+      "(.*) — (.*)": "$2"
     }
 	},
 	"keyboard-state": {

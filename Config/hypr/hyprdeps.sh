@@ -10,4 +10,6 @@ sudo pacman -S otf-font-awesome # waybar icons
 sudo pacman -S swaync # notification daemon
 sudo pacman -S hyprshot
 sudo pacman -S hyprlock
+sudo pacman -S blueman # bluetooth manager
+sudo pacman -S adw-gtk-theme # themes for gtk apps
 yay -S xdg-desktop-portal-hyprland-git # screen sharing (complex deps AUR package)

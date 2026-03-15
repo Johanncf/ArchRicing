@@ -22,10 +22,11 @@ for arg in "$@"; do
 done
 
 echo "ArchRicing: Synchronizing config files..." 
-cp -r "$script_dir/hypr"        ~/.config
-cp -r "$script_dir/waybar"      ~/.config
-cp -r "$script_dir/kitty"	      ~/.config
-cp    "$script_dir/zsh/.zshrc"  ~/.zshrc
+cp -r "$script_dir/hypr"                 ~/.config
+cp -r "$script_dir/waybar"               ~/.config
+cp -r "$script_dir/kitty"	               ~/.config
+cp -r "$script_dir/xdg-desktop-portal"   ~/.config
+cp    "$script_dir/zsh/.zshrc"           ~/.zshrc
 echo "ArchRicing: Ok"
 
 echo "ArchRicing: Creating wallpaper helper script..."
